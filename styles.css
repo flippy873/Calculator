@@ -1,0 +1,55 @@
+h1 {  
+    text-align: center;  
+    padding: 15px;  
+    background-color: rgb(52, 194, 250);  
+    color: rgb(60, 136, 207);  
+    }  
+
+#π{  
+width: 135px;  
+border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: rgb(62, 48, 190);  
+}
+  
+#clear{  
+width: 135px;  
+border: 3px solid rgb(0, 0, 0);  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: rgb(73, 82, 80);  
+}
+ 
+.formstyle  
+{  
+width: 350px;  
+height: 540px;  
+margin: auto;  
+border: 3px solid rgb(19, 19, 22);  
+border-radius: 5px;  
+padding: 20px;  
+}  
+  
+  
+  
+input  
+{  
+width: 20px;  
+background-color: rgb(73, 82, 80);  
+color: rgb(199, 111, 111);  
+border: 3px solid rgb(0, 0, 0);  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 15px;  
+}  
+  
+  
+#calc{  
+width: 250px;  
+border: 5px solid rgb(0, 0, 0);  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}
