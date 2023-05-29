@@ -6,13 +6,6 @@
   font-size: 30px;
     }
 
-h1 {  
-    text-align: center;  
-    padding: 15px;  
-    background-color: rgb(255, 255, 255);  
-    color: rgba(60, 136, 207, 0.048);  
-    }  
-
 #π{  
 width: 135px;  
 border: 3px solid gray;  
@@ -21,14 +14,7 @@ border: 3px solid gray;
     background-color: rgb(62, 48, 190);  
 }
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
-  
+ 
 #clear{  
 width: 135px;  
 border: 3px solid rgb(0, 0, 0);  
