@@ -7,10 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Budjetti laskin - NetCalculator</title>
+    <title>Budjetti sovellus</title>
 </head>
 
 <body>
+
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">menu</span>
+        </button>
+
+        <h1 class="navbar-title">NetCalculator</h1>
+        <nav class="navbar-menu">
+            <button onclick="window.location.href='https://netcalculator.xyz/';">
+                Laskin
+              </button>
+              <button onclick="window.location.href='https://netcalculator.xyz/kuvan%20suhde%20mittari.html';">
+                Kuvansuhde laskin 
+              </button>
+              <button onclick="window.location.href='https://netcalculator.xyz/Budjetti%20laskin.html';">
+                Budjetti laskin
+              </button>
+        </nav>
+
+    </nav>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
 
     <div class="wrapper">
         <div class="container">
