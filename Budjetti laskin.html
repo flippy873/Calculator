@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Budjetti sovellus</title>
+    <title>Budget app</title>
 </head>
 
 <body>
@@ -22,13 +22,13 @@
         <h1 class="navbar-title">NetCalculator</h1>
         <nav class="navbar-menu">
             <button onclick="window.location.href='https://netcalculator.xyz/';">
-                Laskin
+                Main site
               </button>
               <button onclick="window.location.href='https://netcalculator.xyz/kuvan%20suhde%20mittari.html';">
-                Kuvansuhde laskin 
+                Aspect ratio calculator
               </button>
               <button onclick="window.location.href='https://netcalculator.xyz/Budjetti%20laskin.html';">
-                Budjetti laskin
+                Budjet calculator
               </button>
         </nav>
 
@@ -48,7 +48,7 @@
                     </p>
                     <input type="number" id="total-amount" placeholder="lisää budjetti">
                     <button class="submit" id="total-amount-button">
-                        Laita budjetti
+                        Set a budget
                     </button>
                 </div>
 
@@ -57,27 +57,27 @@
                     <p class="hide error" id="product-title-error">
                         
                     </p>
-                    <input type="text" class="product-title" id="product-title" placeholder="Lisää tuotteen nimi">
-                    <input type="number" id="user-amount" placeholder="Lisää tuotteen hinta">
-                    <button class="submit" id="check-amount">Lisää listaan</button>
+                    <input type="text" class="product-title" id="product-title" placeholder="Set product title">
+                    <input type="number" id="user-amount" placeholder="Set product price">
+                    <button class="submit" id="check-amount">Add to list</button>
                 </div>
             </div>
 
             <div class="output-container flex-space">
                 <div>
-                    <p>Koko budjetti</p>
+                    <p>Budjet</p>
                     <span id="amount">
                         0
                     </span>
                 </div>
                 <div>
-                    <p>Kulut</p>
+                    <p>Costs</p>
                     <span id="expenditure-value">
                         0
                     </span>
                 </div>
                 <div>
-                    <p>Rahaa</p>
+                    <p>Money</p>
                     <span id="balance-amount">
                         0
                     </span>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="list">
-            <h3>Lista kuluista</h3>
+            <h3>List of costs</h3>
             <div class="list-container" id="list"></div>
         </div>
 
