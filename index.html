@@ -1,81 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>NetCalculator</title>
 </head>
+
 <body>
-    
-    <nav class="navbar">
-        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
 
-        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
-            <span class="material-icons">menu</span>
-        </button>
+    <div class="main">
+        <!-- Navbar -->
+        <div class="navbar">
+            <a href="#" class="logo">NetCalculator</a>
+            <div class="nav-links">
+                <span class="item selected">Home</span>
+                <span id="scroll" class="item">Get Started</span>
+                <span onclick="window.location.href='https://netcalculator.xyz/kuvan%20suhde%20mittari.html';" class="item">Aspect ratio calculator</span>
+                <span onclick="window.location.href='https://netcalculator.xyz/Budjetti%20laskin.html';" class="item">Budget calculator</span>
+            </div>
+            
 
-        <h1 class="navbar-title">NetCalculator</h1>
-        <nav class="navbar-menu">
-            <button onclick="window.location.href='https://netcalculator.xyz/';">
-                Laskin
-              </button>
-              <button onclick="window.location.href='https://netcalculator.xyz/kuvan%20suhde%20mittari.html';">
-                Kuvansuhde laskin 
-              </button>
-              <button onclick="window.location.href='https://netcalculator.xyz/Budjetti%20laskin.html';">
-                Budjetti laskin
-              </button>
-        </nav>
+            <button class="toggler">
+                <i class='bx bx-menu'></i>
+            </button>
+        </div>
+        <!-- End of Navbar -->
 
-    </nav>
+        <!-- Top Container -->
+        <div class="top-container">
+            <div class="info-box">
+                <p class="header">
+                    Meet the future of math.
+                </p>
+                <p class="info-text">
+                    Explore the best collections of math calculators
+                </p>
+                
+            </div>
+            <div class="nft-box">
+                <img src="nft.jpg" class="nft-pic">
+                <div class="nft-content">
+                    <div class="info">
+                        <img src="logo.png" class="info-img">
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- End of Top Container -->
 
-    <script type="text/javascript">
-        const toggleMenuOpen = () => document.body.classList.toggle("open");
-    </script>
-
-
-<body style="background-color:white;">  
-    <h1>Calculator</h1>  
-    <div class= "formstyle">  
-    <form name = "form1">
-      
-      
-      <input id = "calc" type ="text" name = "answer"> <br> <br>  
-     
-      <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
-      <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
-      <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
-      <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
-      <br> <br>  
+        <!-- Get Stearted -->
+        <div class="get-started">
+            <p class="header">Getting Started</p>
+            <p class="info-text">Meet the future of math</p>
+            <div class="items-box">
+                <div class="item-container">
+                    <div class="item">
+                        <i class='bx bxs-calculator'></i>
+                    </div>
+                    <p>All the calculators are free to use</p>
+                </div>
+                <div class="item-container">
+                    <div class="item">
+                        <i class='bx bxs-check-shield'></i>
+                    </div>
+                    <p>All the calculators are safe to use</p>
+                </div>
+                <div class="item-container">
+                    <div class="item">
+                        <i class='bx bx-window'></i>
+                    </div>
+                    <p>NetCalculator are 24/7 online</p>
+                </div>
+                <div class="item-container">
+                    <div class="item">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <p>NetCalculator is under development</p>
+                </div>
+            </div>
+        </div>
         
-      <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">   
-      <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
-      <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
-      <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
-      <br> <br>  
-        
-      <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
-      <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">
-     
-      <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
-      <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
-      <br> <br>  
-        
-        
-      <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
-      <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
-        <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
-       
-      <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
-      <br> 
-      
-      <input type = "button" value = "π" onclick = "form1.answer.value += '3.1415' "> 
-      <input type = "button" value = "C" onclick = "form1.answer.value = ' ' " id= "clear" > 
-        <br>
 
+
+        
+        <div class="footer">
+            <div class="footer-header">
+                This webside is under development
+            </div>
+            <div class="footer-links">
+                <div class="link">
+                    <h5>Basic info</h5>
+                    <p>Home</p>
+                    <p>Get Started</p>
+                    
+                </div>
+                <div class="link">
+                    <h5>Calculators</h5>
+                    <p>Aspect ratio calculator</p>
+                    <p>Budjet calculator</p>
+                    <p>Normal calculator</p>
+                </div>
+               
+
+            </div>
+
+        </div>
+        <!-- End of Footer -->
+        <div class="copyright">
+            <p>Copyright 2023, NetCalculator.</p>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
 </body>
-</html>
+
