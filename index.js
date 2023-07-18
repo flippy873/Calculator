@@ -1,5 +1,6 @@
-const toggler = document.querySelector(".toggler");
 const navMenu = document.querySelector("#navMenu");
+const toggler = document.getElementById('toggle');
+
 
 toggler.addEventListener("click", function () {
     navMenu.classList.toggle("active")
