@@ -1,0 +1,33 @@
+.calculator {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(220, 220, 255);
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  body{
+    background-color: #252954;
+}
+
+
+  .input,
+  .dropdown {
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 10px;
+    background: linear-gradient(170deg, rgba(52, 93, 129, 0.08) 1.85%, rgba(57, 46, 75, 0.08) 98%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #bdbdbd;
+  }
+  .result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
