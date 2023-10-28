@@ -5,6 +5,7 @@
     background: rgb(220, 220, 255);
     border-radius: 5px;
     padding: 20px;
+    align-items: center;
   }
 
   body{
